@@ -1,8 +1,8 @@
 *{
     margin: 0%;
     box-sizing: border-box
-/* }
-div{
+ }
+.text{
     color: white;
     font-size: 60px;
     justify-content: center;
@@ -11,8 +11,10 @@ div{
     background-color: #00aced;
     font-family: 'helvetica';
 }
-.grand{
-  font-size: 10px;
-  padding: 239px;
-     background: linear-gradient(#00aced, blue);
-   } */
+.container{
+  font-size: 20px;
+  padding: 259px;
+  color: white;
+  font-family: 'helvetica';
+  background: linear-gradient(#00aced, blue);
+   }
