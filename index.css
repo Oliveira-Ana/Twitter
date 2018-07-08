@@ -1,7 +1,7 @@
 *{
     margin: 0%;
     box-sizing: border-box
-}
+/* }
 div{
     color: white;
     font-size: 60px;
@@ -11,3 +11,8 @@ div{
     background-color: #00aced;
     font-family: 'helvetica';
 }
+.grand{
+  font-size: 10px;
+  padding: 239px;
+     background: linear-gradient(#00aced, blue);
+   } */
