@@ -1,22 +1,19 @@
-var input = document.querySelector('input');
-
-function onclickDiv (){
-  }
-var submit = document.querySelector('input[type=submit]');
+const input = document.querySelector('input');
+const submit = document.querySelector('input[type=submit]');
 submit.onclick = function (event){
-  var input = document.querySelector('input');
-  var container = document.getElementsByClassName('container')[0];
-  var novaDiv = document.createElement('div');
+  const input = document.querySelector('input');
+  const container = document.getElementsByClassName('container')[0];
+  const novaDiv = document.createElement('div');
   novaDiv.textContent = input.value + moment().format('lll');
   novaDiv.className='styleColor';
   container.appendChild(novaDiv);
   textInput.value="";
   event.preventDefault();
 }
-function desabilitar (){
-  var limit = 140;
-  var textLimit = document.querySelector('#textInput').value.length;
-  var finish = limit - textLimit;
+function desabledButton (){
+  const limit = 140;
+  const textLimit = document.querySelector('#textInput').value.length;
+  const finish = limit - textLimit;
 if(finish>0){
   document.getElementById('textLimit').innerHTML = finish;
   document.getElementById('button').disabled = false;
@@ -28,7 +25,7 @@ if(finish>0){
 }
 }
 function color(){
-var area = document.getElementById('textLimit');
+const area = document.getElementById('textLimit');
   if (input.value.length > 120 && input.value.length < 130){
     area.style.color = "yellow";
   } else if (input.value.length > 130 && input.value.length < 140){
